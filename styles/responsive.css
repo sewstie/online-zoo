@@ -8,6 +8,12 @@
 @media (max-width:1200px){
   .container{max-width: 940px;}
 
+  .header__inner-content{margin-bottom: 50px;}
+  .header__inner-text{ margin-left: auto; margin-right: 25px; font-size: 85px; width: 367px; height: 367px;}
+  .header__inner-text span{font-size: 85px;}
+  .header__btn{margin: 0 0 0 auto; width: 298px; height: 54px;}
+  .header__inner-text p{top: 35 px; left: 35px;}
+  
   .info-inner{padding-top: 100px; padding-bottom: 20px;}
   .info-image{width: 455px; height: 408px;}
   .info__content{width: 454px;}
@@ -21,6 +27,12 @@
 @media (max-width:992px){
   .container{max-width: 600px;}
   
+  .header__inner-content{margin-bottom: 40px;}
+  .header__inner-text{margin-right: 27px; width: 237.6px; height: 237.6px; font-size: 54.29px;}
+  .header__inner-text span{font-size: 54.29px;}
+  .header__btn{margin-left: 0;}
+  .header__inner-text p{top: 26px; left: 26px;}
+
   .info-inner{padding-top: 60px; padding-bottom: 0;}
   .info-bg{display: block; width: 128px; height: 476px; background-image: url("/online-zoo/assets/images/info-bg-medium.png")} 
   .info-image{display: none;}
@@ -42,6 +54,9 @@
 
 @media (max-width:660px) {
   .container{max-width: none;}
+
+  .header__inner-text{margin-right: 60px; width: 180.09px; height: 180.09px; font-size: 44.29px}
+  .header__inner-text p{top: 8px; left: 8px;}
 
   .catalog-inner{padding-top: 40px;}
   .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/online-zoo/assets/images/flower-1-small.png")}
@@ -65,6 +80,10 @@
 
 
 @media (max-width:350px){
+
+  .header__inner-text{margin-right: 23px; width: 119.09px; height: 119.09px; font-size: 28px;}
+  .header__inner-text span{font-size: 28px;}
+
   .info-bg{display: block; width: 32px; height: 217px; background-image: url("/online-zoo/assets/images/info-bg-small.png")}  
   .info__content{width: 300px;}
   .info__content-text.text{margin-top: 10px;}

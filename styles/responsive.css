@@ -9,9 +9,11 @@
   .container{max-width: 940px;}
 
   .info-inner{padding-top: 100px;}
-  .info-image{width: 49%; height: 408px;}
+  .info-image{width: 455px; height: 408px;}
   .info-inner{padding-bottom: 20px;}
-  .info__content{width: 49%;}
+  .info__content{width: 454px;}
+  .info__content-text.text{margin-top: 25px;}
+  .info__content-text.subtitle{margin-top: 51px;}
 
   .reviews-image{width: 230.6px; height: 210.14px;}
 
@@ -22,6 +24,8 @@
   
   .info-bg{display: block; width: 128px; height: 476px; background-image: url("/online-zoo/assets/images/info-bg-medium.png")} 
   .info-image{display: none;}
+  .info__content-text.text{margin-top: 20px;}
+  .info__content-text.subtitle{margin-top: 30px;}
 
   .reviews-inner{padding: 60px 0 80px 0;}
   .reviews__content{flex-direction: column; gap: 15px; margin-top: 30px;}
@@ -37,8 +41,6 @@
 @media (max-width:660px) {
   .container{max-width: none;}
 
-  .info-bg{width: 32px; height: 217px; background-image: url("/online-zoo/assets/images/info-bg-small.png")}  
-
   .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/online-zoo/assets/images/flower-1-small.png")}
   .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/online-zoo/assets/images/flower-2-small.png")}
 
@@ -48,4 +50,21 @@
   .reviews__content-text > p{display: none;}
   .reviews-btn{margin-top: 30px;}
   .reviews-image{width: 43px; height: 54px;  background-image: url("/online-zoo/assets/images/reviews-bg-small.png")}
+}
+
+@media (max-width:620px){
+  .info-bg{display: none;}
+}
+
+@media (max-width:620px){
+  .info__content-text.title{font-size: 2em;}
+}
+
+
+@media (max-width:340px){
+  .info-bg{display: block; width: 32px; height: 217px; background-image: url("/online-zoo/assets/images/info-bg-small.png")}  
+  .info__content{width: 300px;}
+  .info__content-text.text{margin-top: 10px;}
+  .info__content-text.subtitle{margin-top: 20px;}
+  .info__content-text.title{font-size: 1.5em;}
 }

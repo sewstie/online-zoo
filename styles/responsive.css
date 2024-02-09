@@ -8,9 +8,8 @@
 @media (max-width:1200px){
   .container{max-width: 940px;}
 
-  .info-inner{padding-top: 100px;}
+  .info-inner{padding-top: 100px; padding-bottom: 20px;}
   .info-image{width: 455px; height: 408px;}
-  .info-inner{padding-bottom: 20px;}
   .info__content{width: 454px;}
   .info__content-text.text{margin-top: 25px;}
   .info__content-text.subtitle{margin-top: 51px;}
@@ -22,10 +21,13 @@
 @media (max-width:992px){
   .container{max-width: 600px;}
   
+  .info-inner{padding-top: 60px; padding-bottom: 0;}
   .info-bg{display: block; width: 128px; height: 476px; background-image: url("/online-zoo/assets/images/info-bg-medium.png")} 
   .info-image{display: none;}
   .info__content-text.text{margin-top: 20px;}
   .info__content-text.subtitle{margin-top: 30px;}
+
+  .catalog-inner{padding-top: 80px;}
 
   .reviews-inner{padding: 60px 0 80px 0;}
   .reviews__content{flex-direction: column; gap: 15px; margin-top: 30px;}
@@ -41,6 +43,7 @@
 @media (max-width:660px) {
   .container{max-width: none;}
 
+  .catalog-inner{padding-top: 40px;}
   .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/online-zoo/assets/images/flower-1-small.png")}
   .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/online-zoo/assets/images/flower-2-small.png")}
 
@@ -61,7 +64,7 @@
 }
 
 
-@media (max-width:340px){
+@media (max-width:350px){
   .info-bg{display: block; width: 32px; height: 217px; background-image: url("/online-zoo/assets/images/info-bg-small.png")}  
   .info__content{width: 300px;}
   .info__content-text.text{margin-top: 10px;}

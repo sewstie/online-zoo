@@ -108,6 +108,30 @@ body {
     text-transform: uppercase;
   }
   
+.header__btn{
+  display: flex;
+  border: 0;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin: 0 auto;
+  width: 298px;
+  height: 54px;
+  background: #F9804B;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.header__btn:hover{
+  background-color: #E47209;
+}
+  
   /*   footer    */
   
   .footer{

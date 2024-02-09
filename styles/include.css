@@ -48,7 +48,7 @@ body {
   }
   .header__bottom {
     width: 100%;
-    background-image: url("/assets/images/header-bg.jpg");
+    background-image: url("/online-zoo/assets/images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,7 +213,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/footer-image.png");
+    background-image: url("/online-zoo/assets/images/footer-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

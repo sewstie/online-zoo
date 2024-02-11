@@ -85,24 +85,13 @@
 
 
 .catalog__content{
-  display: grid;
-  grid-template-columns: repeat(3, 366px);
-  grid-template-rows: repeat(2, 426px);
-  grid-column-gap: 30px;
-  grid-row-gap: 20px;
+  display: flex;
 }
 
 .catalog__content__template{
   border-radius: 5px;
   border: 1px solid var(--2, #FA6F32);
 }
-
-.catalog-template-1{grid-area: 1 / 1 / 2 / 2;}
-.catalog-template-2{grid-area: 1 / 2 / 2 / 3;}
-.catalog-template-3{grid-area: 1 / 3 / 2 / 4;}
-.catalog-template-4{grid-area: 2 / 1 / 3 / 2;}
-.catalog-template-5{grid-area: 2 / 2 / 3 / 3;}
-.catalog-template-6{grid-area: 2 / 3 / 3 / 4;}
 
 .catalog__content-image{
   width: 366px; 
@@ -112,14 +101,14 @@
   background-position: center;
 }
 
-.catalog__content-image-1{background-image: url("/assets/images/catalog-image-1.png");}
-.catalog__content-image-2{background-image: url("/assets/images/catalog-image-2.png");}
-.catalog__content-image-3{background-image: url("/assets/images/catalog-image-3.png");}
-.catalog__content-image-4{background-image: url("/assets/images/catalog-image-4.png");}
-.catalog__content-image-5{background-image: url("/assets/images/catalog-image-5.png");}
-.catalog__content-image-6{background-image: url("/assets/images/catalog-image-6.png");}
+.catalog__content .image-1{background-image: url("/assets/images/catalog-image-1.png");}
+.catalog__content .image-2{background-image: url("/assets/images/catalog-image-2.png");}
+.catalog__content .image-3{background-image: url("/assets/images/catalog-image-3.png");}
+.catalog__content .image-4{background-image: url("/assets/images/catalog-image-4.png");}
+.catalog__content .image-5{background-image: url("/assets/images/catalog-image-5.png");}
+.catalog__content .image-6{background-image: url("/assets/images/catalog-image-6.png");}
 
-.catalog__content__template__inner{
+.catalog__content__template-inner{
   padding: 8px 8px 14px 16px;
   display: flex;
   justify-content: space-between;
@@ -190,6 +179,23 @@
   height: 275px;
   bottom: 0;
   right: 0;
+}
+
+.catalog__buttons{
+  display: flex;
+  margin: 10px 0  10px 0 ;
+}
+
+.catalog__buttons-btn{
+
+}
+
+.catalog__buttons-btn .btn-left{
+
+}
+
+.catalog__buttons-btn .btn-right{
+  
 }
 
 /*   help    */

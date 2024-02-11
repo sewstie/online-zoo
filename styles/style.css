@@ -60,7 +60,6 @@
 /*      catalog      */
 
 .catalog{
-  display: flex;
   position: relative;
 }
 
@@ -68,24 +67,9 @@
   padding-top: 140px;
 }
 
-.catalog__block{
-  display: flex;
-  justify-content: center;
-}
-
-.catalog__block-btn-big {
-  cursor: pointer;
-  border: none;
-  background: none;
-  position: relative;
-}
-
-.catalog__block-btn.btn-left {right: 5%;}
-.catalog__block-btn.btn-right {left: 5%;;}
-
-
 .catalog__content{
   display: flex;
+  justify-content: space-between;
 }
 
 .catalog__content__template{
@@ -182,20 +166,28 @@
 }
 
 .catalog__buttons{
+  height: 0;
+  margin: 10px 0 10px 0;
   display: flex;
-  margin: 10px 0  10px 0 ;
+  justify-content: space-between;
 }
 
 .catalog__buttons-btn{
-
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: none;
+  position: relative;
 }
 
-.catalog__buttons-btn .btn-left{
-
+.catalog__buttons-btn.btn-left{
+  right: 10%;
+  bottom: 25px;
 }
 
-.catalog__buttons-btn .btn-right{
-  
+.catalog__buttons-btn.btn-right{
+  left: 10%;
+  bottom: 25px;
 }
 
 /*   help    */

@@ -49,7 +49,12 @@
   .info__content-text.text{margin-top: 20px;}
   .info__content-text.subtitle{margin-top: 30px;}
 
-  .catalog-inner{padding-top: 80px;}
+  .catalog-inner{padding-top: 46px;}
+  .catalog{padding-bottom: 100px;}
+  .catalog__content__template:last-child{display: none;}
+  .catalog__content-image{width: 285px; height: 285px;}
+  .catalog__buttons{margin: 11px 0 19px 0; gap: 30px;}
+  .catalog-btn{margin-top: 60px;}
 
   .reviews-inner{padding: 60px 0 80px 0;}
   .reviews__content{flex-direction: column; gap: 15px; margin-top: 30px;}
@@ -69,8 +74,11 @@
   .header__inner-text p{top: 8px; left: 8px;}
 
   .catalog-inner{padding-top: 40px;}
-  .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/assets/images/flower-1-small.png")}
-  .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/assets/images/flower-2-small.png")}
+  .catalog__buttons{display: none;}
+  .catalog-btn{margin-top: 30px;}
+  .catalog__content{justify-content: none; flex-direction: column; gap: 20px;}
+  .catalog__content{margin-top: 20px;}
+  .catalog__content__template{width: 285px; margin: 0 auto;}
 
   .reviews-inner{padding: 30px 0 60px 0;}
   .reviews__content{margin-top: 20px;}
@@ -86,6 +94,8 @@
 
 @media (max-width:620px){
   .info__content-text.title{font-size: 2em;}
+  .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/assets/images/flower-1-small.png")}
+  .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/assets/images/flower-2-small.png")}
 }
 
 

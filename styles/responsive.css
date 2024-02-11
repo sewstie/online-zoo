@@ -1,6 +1,9 @@
 @media (max-width:1550px){
   .info-bg{display: none;}
 
+  .catalog__buttons{margin: 15px 0 15px 0; height: auto; justify-content: center; gap: 171px;}
+  .catalog__buttons-btn.btn-left{bottom: 0; right: 0;}
+  .catalog__buttons-btn.btn-right{bottom: 0; left: 0;}
   .catalog-image.image-1{width: 194px; height: 202px; background-image: url("/assets/images/flower-1-medium.png")}
   .catalog-image.image-2{width: 241px; height: 180px; background-image: url("/assets/images/flower-2-medium.png")}
 }
@@ -19,6 +22,10 @@
   .info__content{width: 454px;}
   .info__content-text.text{margin-top: 25px;}
   .info__content-text.subtitle{margin-top: 51px;}
+
+  .catalog{padding-bottom: 140px;}
+  .catalog__content-image{width: 294px; height: 294px;}
+  
 
   .reviews-image{width: 230.6px; height: 210.14px;}
 

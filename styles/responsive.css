@@ -27,6 +27,8 @@
 @media (max-width:992px){
   .container{max-width: 600px;}
   
+  .header__menu-burger{display: block;}
+  .header__menu-list{display: none;}
   .header__inner-content{margin-bottom: 40px;}
   .header__inner-text{margin-right: 27px; width: 237.6px; height: 237.6px; font-size: 54.29px;}
   .header__inner-text span{font-size: 54.29px;}
@@ -88,8 +90,13 @@
 
   .info-btn{display: flex;}
   .info-bg{display: block; width: 32px; height: 217px; background-image: url("/assets/images/info-bg-small.png")}  
+  .info-inner{ padding-top: 30px;}
   .info__content{width: 300px;}
   .info__content-text.text{margin-top: 10px;}
   .info__content-text.subtitle{margin-top: 20px;}
   .info__content-text.title{font-size: 1.5em;}
+}
+
+@media (max-width:340px){
+  .info-bg{display: none;}  
 }

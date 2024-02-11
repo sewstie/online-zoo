@@ -1,15 +1,15 @@
 @media (max-width:1550px){
   .info-bg{display: none;}
 
-  .catalog-image.image-1{width: 194px; height: 202px; background-image: url("/online-zoo/assets/images/flower-1-medium.png")}
-  .catalog-image.image-2{width: 241px; height: 180px; background-image: url("/online-zoo/assets/images/flower-2-medium.png")}
+  .catalog-image.image-1{width: 194px; height: 202px; background-image: url("/assets/images/flower-1-medium.png")}
+  .catalog-image.image-2{width: 241px; height: 180px; background-image: url("/assets/images/flower-2-medium.png")}
 }
 
 @media (max-width:1200px){
   .container{max-width: 940px;}
 
   .header__inner-content{margin-bottom: 50px;}
-  .header__inner-text{ margin-left: auto; margin-right: 25px; font-size: 85px; width: 367px; height: 367px;}
+  .header__inner-text{margin-top: 15px; margin-left: auto; margin-right: 25px; font-size: 85px; width: 367px; height: 367px;}
   .header__inner-text span{font-size: 85px;}
   .header__btn{margin: 0 0 0 auto; width: 298px; height: 54px;}
   .header__inner-text p{top: 35 px; left: 35px;}
@@ -32,9 +32,10 @@
   .header__inner-text span{font-size: 54.29px;}
   .header__btn{margin-left: 0;}
   .header__inner-text p{top: 26px; left: 26px;}
+  .header__top-designed{display: none;}
 
   .info-inner{padding-top: 60px; padding-bottom: 0;}
-  .info-bg{display: block; width: 128px; height: 476px; background-image: url("/online-zoo/assets/images/info-bg-medium.png")} 
+  .info-bg{display: block; width: 128px; height: 476px; background-image: url("/assets/images/info-bg-medium.png")} 
   .info-image{display: none;}
   .info__content-text.text{margin-top: 20px;}
   .info__content-text.subtitle{margin-top: 30px;}
@@ -46,7 +47,7 @@
   .reviews__content__template{width: 100%; height: 109px; margin-top: 0;}
   .reviews__content-text > p{display: none;}
   .reviews-btn{margin-top: 40px;}
-  .reviews-image{width: 89px; height: 109px; background-image: url("/online-zoo/assets/images/reviews-bg-medium.png");}
+  .reviews-image{width: 89px; height: 109px; background-image: url("/assets/images/reviews-bg-medium.png");}
 
   .catalog-image.image-1{width: 134px; height: 202px;}
   .catalog-image.image-2{width: 175px; height: 131px;}
@@ -59,15 +60,15 @@
   .header__inner-text p{top: 8px; left: 8px;}
 
   .catalog-inner{padding-top: 40px;}
-  .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/online-zoo/assets/images/flower-1-small.png")}
-  .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/online-zoo/assets/images/flower-2-small.png")}
+  .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/assets/images/flower-1-small.png")}
+  .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/assets/images/flower-2-small.png")}
 
   .reviews-inner{padding: 30px 0 60px 0;}
   .reviews__content{margin-top: 20px;}
   .reviews__content__template{width: 100%; height: 139px; margin-top: 0;}
   .reviews__content-text > p{display: none;}
   .reviews-btn{margin-top: 30px;}
-  .reviews-image{width: 43px; height: 54px;  background-image: url("/online-zoo/assets/images/reviews-bg-small.png")}
+  .reviews-image{width: 43px; height: 54px;  background-image: url("/assets/images/reviews-bg-small.png")}
 }
 
 @media (max-width:620px){
@@ -79,12 +80,14 @@
 }
 
 
-@media (max-width:350px){
+@media (max-width:370px){
 
   .header__inner-text{margin-right: 23px; width: 119.09px; height: 119.09px; font-size: 28px;}
   .header__inner-text span{font-size: 28px;}
+  .header__btn{display: none;}
 
-  .info-bg{display: block; width: 32px; height: 217px; background-image: url("/online-zoo/assets/images/info-bg-small.png")}  
+  .info-btn{display: flex;}
+  .info-bg{display: block; width: 32px; height: 217px; background-image: url("/assets/images/info-bg-small.png")}  
   .info__content{width: 300px;}
   .info__content-text.text{margin-top: 10px;}
   .info__content-text.subtitle{margin-top: 20px;}

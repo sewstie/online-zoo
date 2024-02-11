@@ -48,7 +48,7 @@ body {
   }
   .header__bottom {
     width: 100%;
-    background-image: url("/online-zoo/assets/images/header-bg.jpg");
+    background-image: url("/assets/images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,30 @@ body {
 .header__btn:hover{
   background-color: #E47209;
 }
-  
+    
+.info-btn{
+  display: none;
+  border: 0;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin: 20px auto 0 auto;
+  width: 298px;
+  height: 54px;
+  background: #F9804B;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.info-btn:hover{
+  background-color: #E47209;
+}
   /*   footer    */
   
   .footer{
@@ -237,7 +260,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/online-zoo/assets/images/footer-image.png");
+    background-image: url("/assets/images/footer-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -267,8 +267,8 @@
 
 .help__scheme{
   margin-top: 40px;
-  padding-left: 100px;
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 

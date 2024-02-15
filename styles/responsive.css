@@ -26,6 +26,11 @@
   .catalog{padding-bottom: 140px;}
   .catalog__content-image{width: 294px; height: 294px;}
   
+  .help{padding: 30px 0 50px 0;}
+  .help-introduction{margin-top: 20px;}
+  .help-subtitle{margin-top: 20px;}
+  .help-subject{margin-top: 40px;}
+  .help-btn{margin-top: 57px;}
 
   .reviews-image{width: 230.6px; height: 210.14px;}
 
@@ -55,6 +60,12 @@
   .catalog__content-image{width: 285px; height: 285px;}
   .catalog__buttons{margin: 11px 0 19px 0; gap: 30px;}
   .catalog-btn{margin-top: 60px;}
+  .catalog-image.image-1{width: 134px; height: 202px;}
+  .catalog-image.image-2{width: 175px; height: 131px;}
+
+  .help{padding: 20px 0 50px 20px;}
+  .help__scheme-arrow{display: none;}
+  .help-subject{margin-top: 30px;}
 
   .reviews-inner{padding: 60px 0 80px 0;}
   .reviews__content{flex-direction: column; gap: 15px; margin-top: 30px;}
@@ -63,8 +74,6 @@
   .reviews-btn{margin-top: 40px;}
   .reviews-image{width: 89px; height: 109px; background-image: url("/assets/images/reviews-bg-medium.png");}
 
-  .catalog-image.image-1{width: 134px; height: 202px;}
-  .catalog-image.image-2{width: 175px; height: 131px;}
 }
 
 @media (max-width:660px) {

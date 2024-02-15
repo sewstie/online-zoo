@@ -208,6 +208,12 @@ body {
     gap: 10px;
   }
   
+  .footer__top-logo{
+    background-image: url("/assets/images/logo.png");
+    width: 82px;
+    height: 52px;
+  }
+  
   .footer__top-title{
     color: #FFF;
     font-family: Roboto;

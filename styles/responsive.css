@@ -90,6 +90,7 @@
   .footer__bottom__social-text{display: none;}
   .footer__bottom__social{position: absolute; top: 0; right: 0;}
   .footer__bottom__menu{gap: 37px;}
+  .footer__bottom-copyright{font-size: 0.9375em;}
 }
 
 @media (max-width:660px) {
@@ -124,18 +125,22 @@
 }
 
 @media (max-width:620px){
-  .info-bg{display: none;}
-}
-
-@media (max-width:620px){
   .info__content-text.title{font-size: 2em;}
+  .info-bg{display: none;}
+
   .catalog-image.image-1{width: 58px; height: 72px; background-image: url("/assets/images/flower-1-small.png")}
   .catalog-image.image-2{width: 68px; height: 71px; background-image: url("/assets/images/flower-2-small.png")}
+  
+  .footer{padding: 20px 0 20px 0;}
+  .footer-btn{display: block; margin: 56px auto 0 auto;}
+  .footer__top-logo{background-image: url("/assets/images/logo-small.png"); width: 126px; height: 18px; margin: 0 auto 30px auto;}
+  .footer__bottom__social{flex-direction: row; gap: 30px; position: absolute; left: auto; right: auto; top: 45px; }
+  .footer__bottom{flex-direction: column-reverse; gap: 30px; justify-content: none; align-items: center; margin-top: 30px;}
+  .footer__bottom-copyright{text-align: right;}
 }
 
 @media (max-width:410px){
   .help-btn{width: 100%;}
-  
 }
 
 @media (max-width:370px){
@@ -153,6 +158,8 @@
   .info__content-text.title{font-size: 1.5em;}
 
   .reviews-btn{width: 100%;}
+
+  .footer__bottom__menu-item{font-size: 0.8em;}
 }
 
 @media (max-width:340px){

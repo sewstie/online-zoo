@@ -65,8 +65,8 @@
 
   .help{padding: 20px 0 50px 20px;}
   .help-inner{padding: 10px 20px 60px 20px;}
-  .help__scheme{padding-top: 20px; position: relative; justify-content: none; gap: 42px;}
-  .help__scheme-arrow{ margin-top: 0; background-image: url("/assets/images/help-arrow-small.png"); width: 89px; height: 28px; position: absolute; top: 0;}
+  .help__scheme{margin-top: 20px; position: relative; justify-content: none; gap: 42px;}
+  .help__scheme-arrow{ margin-top: 0; background-image: url("/assets/images/help-arrow-small.png"); width: 89px; height: 28px; position: absolute; top: -15px;}
   .help__scheme .arrow-left{left: 125px;}
   .help__scheme .arrow-right{right: 135px;}
   .help-title{font-size: 2.625em;}
@@ -95,6 +95,17 @@
   .catalog__content{justify-content: none; flex-direction: column; gap: 20px;}
   .catalog__content{margin-top: 20px;}
   .catalog__content__template{width: 285px; margin: 0 auto;}
+
+  .help__scheme{flex-direction: column; gap: 20px; align-items: center;}
+  .help__scheme__template{height: auto;}
+  .help-subtitle{display: none;}
+  .help-text{display: none;}
+  .help-title{font-size: 1.5em;}
+  .help-introduction{text-align: center; font-size: 1.125em;}
+  .help__scheme-text{margin-top: 10px;}
+  .help__scheme-arrow{ margin-top: 0; background-image: url("/assets/images/help-arrow-small.png"); width: 89px; height: 28px; position: absolute; transform: rotate(90deg);}
+  .help__scheme .arrow-left{top: 188px; left: 318px}
+  .help__scheme .arrow-right{top: 418px; right: 100px;}
 
   .reviews-inner{padding: 30px 0 60px 0;}
   .reviews__content{margin-top: 20px;}

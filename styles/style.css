@@ -273,7 +273,10 @@
 }
 
 .help__scheme-arrow{
-  margin-top: 62px
+  margin-top: 62px;
+  background-image: url("/assets/images/help-arrow-big.png");
+  width: 69px;
+  height: 37px;
 }
 
 .help__scheme__template{

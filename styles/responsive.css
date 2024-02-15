@@ -64,8 +64,15 @@
   .catalog-image.image-2{width: 175px; height: 131px;}
 
   .help{padding: 20px 0 50px 20px;}
-  .help__scheme-arrow{display: none;}
+  .help-inner{padding: 10px 20px 60px 20px;}
+  .help__scheme{padding-top: 20px; position: relative; justify-content: none; gap: 42px;}
+  .help__scheme-arrow{ margin-top: 0; background-image: url("/assets/images/help-arrow-small.png"); width: 89px; height: 28px; position: absolute; top: 0;}
+  .help__scheme .arrow-left{left: 125px;}
+  .help__scheme .arrow-right{right: 135px;}
+  .help-title{font-size: 2.625em;}
+  .help-introduction{font-size: 1.375em;}
   .help-subject{margin-top: 30px;}
+  .help-btn{margin-top: 40px;}
 
   .reviews-inner{padding: 60px 0 80px 0;}
   .reviews__content{flex-direction: column; gap: 15px; margin-top: 30px;}

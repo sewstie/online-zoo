@@ -83,6 +83,13 @@
   .reviews-btn{margin-top: 40px;}
   .reviews-image{width: 89px; height: 109px; background-image: url("/assets/images/reviews-bg-medium.png");}
 
+  .footer{padding: 11px 0 12px 0;}
+  .footer-inner{position: relative;}
+  .footer__top-inner{display: none;}
+  .footer-btn{margin-top: 32px;}
+  .footer__bottom__social-text{display: none;}
+  .footer__bottom__social{position: absolute; top: 0; right: 0;}
+  .footer__bottom__menu{gap: 37px;}
 }
 
 @media (max-width:660px) {

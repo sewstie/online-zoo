@@ -160,6 +160,7 @@ body {
   line-height: 140%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 .header__btn:hover{
@@ -184,6 +185,7 @@ body {
   line-height: 140%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 .info-btn:hover{
@@ -254,6 +256,12 @@ body {
     border-radius: 5px;
     border: 1px solid var(--Green, #4B9200);
     background: var(--gray_light, #F1F3F2);
+    transition: 0.3s;
+  }
+
+  .footer__top-btn:hover{
+    color: var(--Green, #F1F3F2);
+    background: var(--gray_light, #4B9200);
   }
   
   .footer-btn{
@@ -272,6 +280,7 @@ body {
     font-weight: 500;
     line-height: 140%;
     text-transform: uppercase;
+    transition: 0.3s;
   }
   
   .footer-btn:hover{

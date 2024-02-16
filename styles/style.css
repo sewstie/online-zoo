@@ -137,6 +137,7 @@
   align-items: center;
   border-radius: 25px;
   background: #FE9013;
+  transition: 0.3s;
 }
 
 .catalog-btn:hover{
@@ -179,6 +180,17 @@
   border: none;
   background: none;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: linear-gradient(121.04deg, rgb(249, 128, 75) 2.797%,rgb(254, 144, 19) 99.669%);
+}
+
+.catalog__buttons-btn:hover{
+  background: rgb(228, 114, 9);
 }
 
 .catalog__buttons-btn.btn-left{
@@ -326,6 +338,7 @@
   flex-shrink: 0;
   border-radius: 25px;
   background: var(--orange, linear-gradient(114deg, #F9804B 1.49%, #FE9013 101.44%));
+  transition: 0.3s;
 }
 
 .help-btn:hover{
@@ -429,6 +442,7 @@
   background: var(--orange, linear-gradient(114deg, #F9804B 1.49%, #FE9013 101.44%));
   width: 298px;
   height: 54px;
+  transition: 0.3s;
 }
 
 .reviews-btn:hover{

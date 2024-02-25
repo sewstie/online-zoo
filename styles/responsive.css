@@ -51,7 +51,10 @@
   .header__top-designed{display: none;}
   .header__top-logo{background-image: url("/assets/images/logo-mobile.png"); width: 47px; height: 29px;}
   .header__top-logo.active{background-image: url("/assets/images/logo-active.png"); width: 53px; height: 27px; border-radius: 2px; border: 0.8px solid #FE9013; padding: 3px 3px;}
-  .header__menu-list-mobile{display: block;}
+  .header__menu-list-mobile{display: flex; flex-direction: column;}
+  .header__menu-item{font-weight: 400; color: #333B41; padding: 0 15px; width: 600px; margin: 0 auto; padding-top: 15px;}
+  .header__menu-item:not(:last-child){margin: 0 auto;}
+  
 
   .info-inner{padding-top: 60px; padding-bottom: 0;}
   .info-bg{display: block; width: 128px; height: 476px; background-image: url("/assets/images/info-bg-medium.png")} 

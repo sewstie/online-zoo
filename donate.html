@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/include.css">
     <link rel="stylesheet" href="styles/donate.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <title>Donate</title>
 </head> 
 <body>
@@ -19,20 +19,29 @@
             <div class="container">
                 <div class="header__top-inner">
                     <div class="header__top-column header__top-column--left">
-                        <a href="#" class="header__top-logo logo">
-                            <img src="/assets/images/logo.png" alt="logo">
-                        </a>
-                        <nav class="header__menu">
-                            <ul class="header__menu-list">
-                                <li class="header__menu-item"><a href="index.html" class="header__menu-link">About</a></li>
-                                <li class="header__menu-item"><a href="#" class="header__menu-link">Map</a></li>
-                                <li class="header__menu-item"><a href="#" class="header__menu-link">Zoos</a></li>
-                                <li class="header__menu-item active"><a href="#" class="header__menu-link">Donate</a></li>
-                                <li class="header__menu-item"><a href="#" class="header__menu-link">Contact us</a></li>
-                            </ul>
-                        </nav>
+                        <a href="./index.html" class="header__top-logo"></a>
+                        <div class="header__menu">
+                            <nav class="header__menu-list">
+                                <a href="index.html" class="header__menu-item active">About</a>
+                                <a href="#" class="header__menu-item">Map</a>
+                                <a href="#" class="header__menu-item">Zoos</a>
+                                <a href="donate.html" class="header__menu-item">Donate</a>
+                                <a href="#" class="header__menu-item">Contact us</a>
+                            </nav>
+                            <nav class="header__menu-list-mobile">
+                                <a href="index.html" class="header__menu-item active">About</a>
+                                <a href="#" class="header__menu-item">Map</a>
+                                <a href="#" class="header__menu-item">Zoos</a>
+                                <a href="donate.html" class="header__menu-item">Donate</a>
+                                <a href="#" class="header__menu-item">Contact us</a>
+                                <div class="header__menu-item">Designed by ©</div>
+                            </nav>
+                        </div>
                     </div>
                     <div class="header__top-column header__top-column--right">
+                        <button class="header__menu-burger">
+                            <div class="bar"></div>
+                        </button>
                         <span class="header__top-designed">Designed by ©</span>
                     </div>
                 </div>
@@ -101,5 +110,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

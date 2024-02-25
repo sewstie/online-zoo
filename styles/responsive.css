@@ -49,6 +49,8 @@
   .header__btn{margin-left: 0;}
   .header__inner-text p{top: 26px; left: 26px;}
   .header__top-designed{display: none;}
+  .header__top-logo{background-image: url("/assets/images/logo-mobile.png"); width: 47px; height: 29px;}
+  .header__top-logo.active{background-image: url("/assets/images/logo-active.png"); width: 58px; height: 36px;}
 
   .info-inner{padding-top: 60px; padding-bottom: 0;}
   .info-bg{display: block; width: 128px; height: 476px; background-image: url("/assets/images/info-bg-medium.png")} 

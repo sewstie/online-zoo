@@ -65,6 +65,10 @@ body {
   color: #fe9013;
 }
 
+.header__menu-item:first-child{
+  margin-top: 15vh;
+}
+
 .header__menu-burger{
   width: 33px;
   height:33px;
@@ -109,7 +113,7 @@ body {
   bottom: 100%;
   right: 0;
   width: 100%;
-  min-height: 370px;
+  height: 100vh;
   background-color: #fff;
   padding-top: 35%;
   transition: 0.6s ease all;

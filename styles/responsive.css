@@ -53,7 +53,7 @@
   .header__top-logo.active{background-image: url("/assets/images/logo-active.png"); width: 53px; height: 27px; border-radius: 2px; border: 0.8px solid #FE9013; padding: 3px 3px; background-size: auto;}
   .header__menu-list-mobile{display: flex; flex-direction: column;}
   .header__menu-item{font-weight: 400; color: #333B41; padding: 0 15px; width: 600px; margin: 0 auto; padding-top: 15px;}
-  .header__menu-item:not(:last-child){margin: 0 auto;}
+  .header__menu-item:not(:last-child){margin-left: auto; margin-right: auto;}
   
 
   .info-inner{padding-top: 60px; padding-bottom: 0;}

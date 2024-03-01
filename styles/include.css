@@ -118,7 +118,7 @@ body {
 }
 
 .header__menu-list-mobile.active{
-  bottom: 60%;
+  bottom: 0%;
 }
 
 .header__bottom {

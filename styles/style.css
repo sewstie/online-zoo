@@ -365,18 +365,18 @@
   line-height: 130%;
 }
 
-.reviews__content{
+.splide__list   {
   display: flex;
   justify-content: space-between;
 }
 
-.reviews__content__template{
+.splide__slide{
   margin-top: 47px;
   width: 268px;
-  height: 391px;
   border-radius: 20px;
   border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74));
   background: var(--gray_light, #F1F3F2);
+  overflow-y: scroll;
 }
 
 .reviews__content-name{

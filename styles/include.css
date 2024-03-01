@@ -65,9 +65,6 @@ body {
   color: #fe9013;
 }
 
-.header__menu-item:first-child{
-  margin-top: 15vh;
-}
 
 .header__menu-burger{
   width: 33px;
@@ -119,6 +116,10 @@ body {
   transition: 0.6s ease all;
   z-index: 98;
   overflow: hidden;
+}
+
+.header__menu-list-mobile .header__menu-item:first-child{
+  margin-top: 15vh;
 }
 
 .header__menu-list-mobile.active{

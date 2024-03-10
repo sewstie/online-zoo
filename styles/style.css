@@ -365,66 +365,59 @@
   line-height: 130%;
 }
 
-.splide__list   {
+.reviews__content{
+  gap: 29px;
+  padding-bottom: 21px;
   display: flex;
-  justify-content: space-between;
-}
-
-.splide__slide{
+  flex: 1;
+  max-height: 575px;
+  overflow-x: scroll;
+  scrollbar-color: rgb(254, 144, 19) transparent;
+  scrollbar-arrow-color: transparent;
   margin-top: 47px;
-  width: 268px;
+}
+
+.review__content{
+  background: linear-gradient(-19.79deg, rgba(254, 189, 171, 0.74) 17.572%,rgba(243, 169, 248, 0.66) 42.576%,rgb(224, 216, 240) 78.53%,rgb(234, 247, 254) 135.84%,rgb(234, 247, 254) 161.995%),linear-gradient(-19.79deg, rgba(254, 189, 171, 0.74) 17.572%,rgba(243, 169, 248, 0.66) 42.576%,rgb(224, 216, 240) 78.53%,rgb(234, 247, 254) 135.84%,rgb(234, 247, 254) 161.995%);
+  padding: 2px;
+  border-radius: 22px;
+}
+
+.review-inner{
+  padding: 15px;
+  color: black;
+  min-width: 238px;
+  height: 361px;
   border-radius: 20px;
-  border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74));
-  background: var(--gray_light, #F1F3F2);
-  overflow-y: scroll;
+  background: rgb(241, 243, 242);
 }
 
-.reviews__content-name{
-  color: #000;
-  font-family: Roboto;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-.reviews__content-subtitle{
-  color: var(--Gray-4, #BDBDBD);
-  font-family: Roboto;
-  font-size: 0.93em;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-}
-
-.reviews__content-text{
-  padding: 0 15px 0 16px;
-  color: var(--gray, #767474);
-  font-family: Roboto;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-}
-
-.reviews__content-avatar{
-  width: 37px;
-  height: 37px;
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center;
-}
-
-.avatar-1{background: url('/assets/images/avatar-1.png');}
-.avatar-2{background: url('/assets/images/avatar-2.png');}
-.avatar-3{background: url('/assets/images/avatar-3.png');}
-.avatar-4{background: url('/assets/images/avatar-4.png');}
-
-.reviews__content__inner{
-  padding: 15px 15px 0 16px;
-  margin-bottom: 10px;
+.review__header{
   display: flex;
-  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.review__date-and-location{
+  color: rgb(189, 189, 189);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.review__image{
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.review__text{
+  overflow: hidden;
+  color: rgb(118, 116, 116);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0;
+  max-height: 309px;
 }
 
 .reviews-btn{

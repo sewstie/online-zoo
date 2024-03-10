@@ -8,19 +8,4 @@ window.onload = function () {
         mobile_logo.classList.toggle('active');
         mobile_menu.classList.toggle('active');
     });
-
-    var splide = new Splide( '.splide', {
-        perPage    : 3,
-        perMove    : 1,
-        focus      : 'center',
-        trimSpace  : false,
-        breakpoints: {
-          600: {
-            perPage: 2,
-            height : '6rem',
-          },
-        },
-      } );
-      
-      splide.mount();
 }

@@ -285,6 +285,7 @@ body {
   border-radius: 2px;
   border: 0.7px solid var(--orange, #F9804B);
   background: none;
+  color: var(--Gray-4, #BDBDBD);
 }
 
 .footer__top-input::placeholder{
@@ -296,25 +297,27 @@ body {
   line-height: 140%;
 }
 
+#input-result{
+  color:white;
+  font-size:15px;
+  height:20px;
+  margin-top:10px
+}
+
 .footer__top-btn{
   cursor: pointer;
   width: 129px;
   height: 42px;
-  color: var(--Green, #4B9200);
+  color: #000;
   font-family: Roboto;
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   border-radius: 5px;
-  border: 1px solid var(--Green, #4B9200);
+  border: 1px solid var(--black_blue, #333B41);
   background: var(--gray_light, #F1F3F2);
   transition: 0.3s;
-}
-
-.footer__top-btn:hover{
-  color: var(--Green, #F1F3F2);
-  background: var(--gray_light, #4B9200);
 }
 
 .footer-btn{

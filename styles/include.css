@@ -18,7 +18,7 @@ body {
 }
 
 .header__top-logo{
-  background-image: url("https://sewstie.github.io/online-zoo/assets/images/logo.png");
+  background-image: url("../../assets/images/logo.png");
   background-repeat: no-repeat;
   width: 83px;
   height: 53px;
@@ -128,7 +128,7 @@ body {
 
 .header__bottom {
   width: 100%;
-  background-image: url("https://sewstie.github.io/online-zoo/assets/images/header-bg.jpg");
+  background-image: url("../../assets/images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -264,7 +264,7 @@ body {
 }
 
 .footer__top-logo{
-  background-image: url("https://sewstie.github.io/online-zoo/assets/images/logo.png");
+  background-image: url("../../assets/images/logo.png");
   width: 82px;
   height: 52px;
 }
@@ -365,7 +365,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://sewstie.github.io/online-zoo/assets/images/footer-image.png");
+  background-image: url("../../assets/images/footer-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

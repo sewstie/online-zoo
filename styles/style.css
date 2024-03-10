@@ -14,7 +14,7 @@
 .info-image{
   width: 609px;
   height: 403px;
-  background-image: url("./assets/images/info-image.png");
+  background-image: url("/assets/images/info-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -48,7 +48,7 @@
 
 .info-bg{
   position: absolute;
-  background-image: url("./assets/images/info-bg-big.png");
+  background-image: url("/assets/images/info-bg-big.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
@@ -86,12 +86,12 @@
   background-position: center;
 }
 
-.catalog__content .image-1{background-image: url("./assets/images/catalog-image-1.png");}
-.catalog__content .image-2{background-image: url("./assets/images/catalog-image-2.png");}
-.catalog__content .image-3{background-image: url("./assets/images/catalog-image-3.png");}
-.catalog__content .image-4{background-image: url("./assets/images/catalog-image-4.png");}
-.catalog__content .image-5{background-image: url("./assets/images/catalog-image-5.png");}
-.catalog__content .image-6{background-image: url("./assets/images/catalog-image-6.png");}
+.catalog__content .image-1{background-image: url("/assets/images/catalog-image-1.png");}
+.catalog__content .image-2{background-image: url("/assets/images/catalog-image-2.png");}
+.catalog__content .image-3{background-image: url("/assets/images/catalog-image-3.png");}
+.catalog__content .image-4{background-image: url("/assets/images/catalog-image-4.png");}
+.catalog__content .image-5{background-image: url("/assets/images/catalog-image-5.png");}
+.catalog__content .image-6{background-image: url("/assets/images/catalog-image-6.png");}
 
 .catalog__content__template-inner{
   padding: 8px 8px 14px 16px;
@@ -152,7 +152,7 @@
 }
 
 .catalog-image.image-1{
-  background-image: url("./assets/images/flower-1-big.png");
+  background-image: url("/assets/images/flower-1-big.png");
   width: 292px;
   height: 460px;
   bottom: 0;
@@ -160,7 +160,7 @@
 }
 
 .catalog-image.image-2{
-  background-image: url("./assets/images/flower-2-big.png");
+  background-image: url("/assets/images/flower-2-big.png");
   width: 368px;
   height: 275px;
   bottom: 0;
@@ -286,7 +286,7 @@
 
 .help__scheme-arrow{
   margin-top: 62px;
-  background-image: url("./assets/images/help-arrow-big.png");
+  background-image: url("/assets/images/help-arrow-big.png");
   width: 69px;
   height: 37px;
 }
@@ -443,7 +443,7 @@
 
 .reviews-image{
   position: absolute;
-  background-image: url("./assets/images/reviews-bg-big.png");
+  background-image: url("/assets/images/reviews-bg-big.png");
   width: 220px;
   height: 212px;
   bottom: 0;

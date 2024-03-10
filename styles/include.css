@@ -128,7 +128,7 @@ body {
 
 .header__bottom {
   width: 100%;
-  background-image: url("/assets/images/header-bg.jpg");
+  background-image: url("/online-zoo/assets/images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

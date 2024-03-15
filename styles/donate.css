@@ -52,7 +52,7 @@
     backdrop-filter: blur(2px);
 }
 
-.donate__content-title{
+.content-title{
     padding-top: 10px;
     text-align: center;
     color: #FE9013;
@@ -64,7 +64,7 @@
     line-height: 120%; 
 }
 
-.donate__content-text{
+.content-text{
     margin-top: 10px;
     text-align: left;
     color: #333B41;
@@ -73,4 +73,44 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+}
+
+.content__counter{
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+}
+.content__block{
+    margin: auto 0;
+}
+
+
+.content__block:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-right: 16px;
+}
+
+.content__block:nth-child(2){
+    margin-right: 64px;
+}
+
+.block-number{
+    color: #000;
+    text-align: center;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%;
+    text-transform: uppercase;
+}
+
+.block-text{
+    color: #333B41;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
 }

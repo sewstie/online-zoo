@@ -42,7 +42,7 @@
 }
 
 .donate{
-    padding-bottom: 180px;
+    padding-bottom: 30px;
 }
 
 .donate__content{
@@ -53,7 +53,6 @@
 }
 
 .content-title{
-    padding-top: 10px;
     text-align: center;
     color: #FE9013;
     text-align: center;
@@ -66,7 +65,7 @@
 
 .content-text{
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
     color: #333B41;
     font-family: Roboto;
     font-size: 1.5em;

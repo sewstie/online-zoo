@@ -33,6 +33,8 @@
   .help-btn{margin-top: 57px;}
 
   .review-inner{min-width: 258px;}
+
+  .donate-text{padding-top: 30px;}
 }
 
 @media (max-width:992px){
@@ -93,6 +95,10 @@
   .footer__bottom__social{position: absolute; top: 0; right: 0;}
   .footer__bottom__menu{gap: 37px;}
   .footer__bottom-copyright{font-size: 0.9375em;}
+
+  .content-title{font-size: 2em;}
+  .donate-text{padding-top: 20px;}
+  .donate-subtitle{padding-top: 30px;}
 }
 
 @media (max-width:660px) {

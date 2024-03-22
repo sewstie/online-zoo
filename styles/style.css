@@ -64,8 +64,8 @@
   padding-bottom: 100px;
 }
 
-.splide{
-  padding-top: 106px;
+.splide:nth-child(1){
+  margin-top: 106px;
 }
 
 .splide__slide-inner{
@@ -156,7 +156,6 @@
 }
 
 .catalog__buttons{
-  height: 0;
   margin: 10px 0 10px 0;
   display: flex;
   justify-content: space-between;

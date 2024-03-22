@@ -64,6 +64,10 @@
   padding-bottom: 100px;
 }
 
+.splide{
+  padding-top: 106px;
+}
+
 .splide__slide{
   border-radius: 5px;
   border: 1px solid var(--2, #FA6F32);

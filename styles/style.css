@@ -64,16 +64,7 @@
   padding-bottom: 100px;
 }
 
-.catalog-inner{
-  padding-top: 106px;
-}
-
-.catalog__content{
-  display: flex;
-  justify-content: space-between;
-}
-
-.catalog__content__template{
+.splide__slide{
   border-radius: 5px;
   border: 1px solid var(--2, #FA6F32);
 }
@@ -86,14 +77,7 @@
   background-position: center;
 }
 
-.catalog__content .image-1{background-image: url("../../assets/images/catalog-image-1.png");}
-.catalog__content .image-2{background-image: url("../../assets/images/catalog-image-2.png");}
-.catalog__content .image-3{background-image: url("../../assets/images/catalog-image-3.png");}
-.catalog__content .image-4{background-image: url("../../assets/images/catalog-image-4.png");}
-.catalog__content .image-5{background-image: url("../../assets/images/catalog-image-5.png");}
-.catalog__content .image-6{background-image: url("../../assets/images/catalog-image-6.png");}
-
-.catalog__content__template-inner{
+.catalog__content-inner{
   padding: 8px 8px 14px 16px;
   display: flex;
   justify-content: space-between;

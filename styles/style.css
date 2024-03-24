@@ -156,6 +156,7 @@
 }
 
 .catalog__buttons{
+  height: 0;
   margin: 10px 0 10px 0;
   display: flex;
   justify-content: space-between;

@@ -64,8 +64,10 @@
   padding-bottom: 100px;
 }
 
+.catalog-mobile{display: none; margin-top: 40px;}
+
 .splide:nth-child(1){
-  margin-top: 106px;
+  margin-top: 140px;
 }
 
 .splide__slide-inner{

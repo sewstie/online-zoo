@@ -23,6 +23,7 @@
   .info__content-text.text{margin-top: 25px;}
   .info__content-text.subtitle{margin-top: 51px;}
 
+  .splide:nth-child(1){margin-top: 106px;}
   .catalog{padding-bottom: 140px;}
   .catalog__content-image{width: 294px; height: 294px;}
   
@@ -64,7 +65,7 @@
   .info__content-text.text{margin-top: 20px;}
   .info__content-text.subtitle{margin-top: 30px;}
 
-  .catalog-inner{padding-top: 46px;}
+  .splide:nth-child(1){margin-top: 80px;}
   .catalog{padding-bottom: 100px;}
   .catalog__content__template:last-child{display: none;}
   .catalog__content-image{width: 285px; height: 285px;}
@@ -113,6 +114,9 @@
   .header__inner-text{margin-right: 60px; width: 180.09px; height: 180.09px; font-size: 44.29px}
   .header__inner-text p{top: 8px; left: 8px;}
 
+  .splide{display: none;}
+  .splide__slide{width: 285px; margin: 0 auto; margin-top: 20px;}
+  .catalog-mobile{display: block;}
   .catalog-inner{padding-top: 40px;}
   .catalog__buttons{display: none;}
   .catalog-btn{margin-top: 30px;}

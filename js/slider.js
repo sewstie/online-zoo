@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
         focus  : 0,
         omitEnd: true,
         gap: '28px',
+        breakpoints: {
+          992: {
+            perPage: 2,
+          },
+        },
       } );
       
       splide1.mount();
@@ -20,6 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
         focus  : 0,
         omitEnd: true,
         gap: '28px',
+        breakpoints: {
+          992: {
+            perPage: 2,
+          },
+        },
       } );
       
       splide2.mount();

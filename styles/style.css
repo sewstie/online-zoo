@@ -134,6 +134,10 @@
   background-color: #E47209;
 }
 
+.catalog-btn:active{
+  background: var(--Green, #4B9200);
+}
+
 .catalog-image{
   background-repeat: no-repeat; 
   background-size: cover; 
@@ -181,6 +185,10 @@
 
 .catalog__buttons-btn:hover{
   background: rgb(228, 114, 9);
+}
+
+.catalog__buttons-btn:active{
+  background: var(--Green, #4B9200);
 }
 
 .catalog__buttons-btn.btn-left{
@@ -335,6 +343,11 @@
   background-color: #E47209;
 }
 
+.help-btn:active{
+  background: var(--Green, #4B9200);
+
+}
+
 
 /*     reviews         */
 
@@ -429,6 +442,10 @@
 
 .reviews-btn:hover{
   background: #E47209;
+}
+
+.reviews-btn:active{
+  background: var(--Green, #4B9200);
 }
 
 .reviews-image{

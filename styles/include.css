@@ -219,6 +219,10 @@ body {
   background-color: #E47209;
 }
 
+.header__btn:active{
+  background: #4B9200;
+}
+
 .info-btn{
   display: none;
   border: 0;

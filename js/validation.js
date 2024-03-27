@@ -5,8 +5,6 @@ let inputButton = document.querySelector(".footer__top-btn");
 let confText = document.getElementById('input-result');
 inputEmail.addEventListener('inputEmail', onInput);
 
-const input2 = document.querySelector('input');
-
 function onInput() {
     if (isEmailValid(inputEmail.value)) {
         inputEmail.style.borderColor = '#4B9200';

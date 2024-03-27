@@ -142,6 +142,7 @@
     width: 268px;
     border-radius: 2px;
     border: 1px solid #929699;
+    background-color: transparent;
 }
 
 .content-input input[type="text"]:focus {
@@ -157,6 +158,10 @@
 
 .content-btn:hover{
     background: #E47209;
+}
+
+.content-btn:active{
+    background: var(--Green, #4B9200);
 }
 
 .content-description{
@@ -176,15 +181,15 @@
     margin-bottom: 12px;
     cursor: pointer;
     user-select: none;
-  }
+}
   
-  .checkbox input {
+.checkbox input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
+}
   
-  .checkmark {
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -193,31 +198,36 @@
     background-color: none;
     border-radius: 50%;
     border: 1px solid var(--orange, #F9804B);
-  }
+}
   
-  .checkbox input:checked ~ .checkmark {
+.checkbox input:checked ~ .checkmark {
     background-color: var(--Green, #4B9200);
     border: none;
-  }
+}
 
-  .content-btn{
-      cursor: pointer;
-      border: none;
-      color: #FFF;
-      text-align: center;
-      margin: 31px auto 0 auto;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 140%;
-      text-transform: uppercase;
-      display: flex;
-      width: 298px;
-      height: 54px;
-      padding: 16px 1px 16px 5px;
-      justify-content: center;
-      align-items: center;
-      flex-shrink: 0;
-      border-radius: 25px;
-      background: var(--orange, linear-gradient(114deg, #F9804B 1.49%, #FE9013 101.44%));
-  }
+.content-btn{
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    margin: 31px auto 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    display: flex;
+    width: 298px;
+    height: 54px;
+    padding: 16px 1px 16px 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: var(--orange, linear-gradient(114deg, #F9804B 1.49%, #FE9013 101.44%));
+}
+
+#donate-result{
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 15px;
+}

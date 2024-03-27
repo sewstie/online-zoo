@@ -133,13 +133,19 @@
     position:absolute;
     left: 260px;
     top: 17px;
+    color: #929699;
 }
 
 .content-input input{
+    color: #929699;
     padding: 16px 9px;
     width: 268px;
     border-radius: 2px;
     border: 1px solid #929699;
+}
+
+.content-input input[type="text"]:focus {
+    border: 5px solid #862d59;
 }
 
 .content-checkbox{

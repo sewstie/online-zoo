@@ -231,3 +231,41 @@
     text-align: center;
     margin-top: 15px;
 }
+
+.content__bar{
+    margin-top: 17px;
+}
+
+.content__bar-points{
+    height: 2px;
+    background: #72828E;
+    border: 12.5px #404950 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__bar-points button{
+    cursor: pointer;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(255, 238, 46);
+    position: relative;
+}
+
+.content__bar-prices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__bar-prices span{  
+    color: #333B41;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 36.4px */
+    text-transform: uppercase;
+}
